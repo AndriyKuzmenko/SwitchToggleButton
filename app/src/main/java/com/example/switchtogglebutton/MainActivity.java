@@ -2,6 +2,7 @@ package com.example.switchtogglebutton;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.Switch;
 import android.widget.ToggleButton;
@@ -21,5 +22,10 @@ public class MainActivity extends AppCompatActivity
         b=(Button) findViewById(R.id.button);
         s=(Switch) findViewById(R.id.switch1);
         tb=(ToggleButton) findViewById(R.id.toggleButton);
+    }
+
+    public void buttonPressed(View view)
+    {
+        //
     }
 }
