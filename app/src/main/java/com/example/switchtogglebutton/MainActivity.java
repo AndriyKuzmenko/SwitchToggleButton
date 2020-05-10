@@ -35,6 +35,9 @@ public class MainActivity extends AppCompatActivity
         bo1=s.isChecked();
         bo2=tb.isChecked();
 
-        //Setting image
+        if (bo1 && bo2)
+        {
+            l.setBackground(getResources().getDrawable(R.drawable.edinburgh));
+        }
     }
 }
