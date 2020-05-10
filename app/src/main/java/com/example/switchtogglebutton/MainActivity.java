@@ -13,6 +13,9 @@ public class MainActivity extends AppCompatActivity
     Switch s;
     ToggleButton tb;
 
+    boolean bo1;
+    boolean bo2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
