@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.ToggleButton;
 
@@ -12,6 +13,7 @@ public class MainActivity extends AppCompatActivity
     Button b;
     Switch s;
     ToggleButton tb;
+    LinearLayout l;
 
     boolean bo1;
     boolean bo2;
@@ -25,6 +27,7 @@ public class MainActivity extends AppCompatActivity
         b=(Button) findViewById(R.id.button);
         s=(Switch) findViewById(R.id.switch1);
         tb=(ToggleButton) findViewById(R.id.toggleButton);
+        l=(LinearLayout) findViewById(R.id.layout);
     }
 
     public void buttonPressed(View view)
