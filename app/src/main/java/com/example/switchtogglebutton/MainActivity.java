@@ -8,14 +8,18 @@ import android.widget.ToggleButton;
 
 public class MainActivity extends AppCompatActivity
 {
-    Button b=(Button) findViewById(R.id.button);
-    Switch s=(Switch) findViewById(R.id.switch1);
-    ToggleButton tb=(ToggleButton) findViewById(R.id.toggleButton);
+    Button b;
+    Switch s;
+    ToggleButton tb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        b=(Button) findViewById(R.id.button);
+        s=(Switch) findViewById(R.id.switch1);
+        tb=(ToggleButton) findViewById(R.id.toggleButton);
     }
 }
