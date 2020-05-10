@@ -31,5 +31,7 @@ public class MainActivity extends AppCompatActivity
     {
         bo1=s.isChecked();
         bo2=tb.isChecked();
+
+        //Setting image
     }
 }
