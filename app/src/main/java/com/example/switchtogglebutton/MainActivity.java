@@ -35,24 +35,9 @@ public class MainActivity extends AppCompatActivity
         bo1=s.isChecked();
         bo2=tb.isChecked();
 
-        if (bo1 && bo2)
-        {
-            l.setBackground(getResources().getDrawable(R.drawable.edinburgh));
-        }
-
-        if (!bo1 && bo2)
-        {
-            l.setBackground(getResources().getDrawable(R.drawable.edinburghcastle));
-        }
-
-        if (bo1 && !bo2)
-        {
-            l.setBackground(getResources().getDrawable(R.drawable.fountain));
-        }
-
-        if (!bo1 && !bo2)
-        {
-            l.setBackground(getResources().getDrawable(R.drawable.oorwullie));
-        }
+        if (bo1 && bo2)  l.setBackground(getResources().getDrawable(R.drawable.edinburgh));
+        else if (!bo1 && bo2) l.setBackground(getResources().getDrawable(R.drawable.edinburghcastle));
+        else if (bo1 && !bo2) l.setBackground(getResources().getDrawable(R.drawable.fountain));
+        else if (!bo1 && !bo2) l.setBackground(getResources().getDrawable(R.drawable.oorwullie));
     }
 }
