@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity
 
     public void buttonPressed(View view)
     {
-        //
+        bo1=s.isChecked();
+        bo2=tb.isChecked();
     }
 }
