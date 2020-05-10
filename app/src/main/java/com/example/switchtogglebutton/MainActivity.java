@@ -44,5 +44,10 @@ public class MainActivity extends AppCompatActivity
         {
             l.setBackground(getResources().getDrawable(R.drawable.edinburghcastle));
         }
+
+        if (bo1 && !bo2)
+        {
+            l.setBackground(getResources().getDrawable(R.drawable.fountain));
+        }
     }
 }
