@@ -21,19 +21,15 @@
         <Space
             android:layout_width="match_parent"
             android:layout_height="0px"
-            android:layout_weight="10" />
+            android:layout_weight="100" />
 
         <Switch
             android:id="@+id/switch1"
             android:layout_width="match_parent"
             android:layout_height="0px"
             android:layout_weight="10"
-            android:text="Switch" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="0px"
-            android:layout_weight="10" />
+            android:text="Switch"
+            android:textColor="#600658" />
 
         <ToggleButton
             android:id="@+id/toggleButton"
@@ -42,23 +38,15 @@
             android:layout_weight="10"
             android:text="ToggleButton" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="0px"
-            android:layout_weight="10" />
-
         <Button
             android:id="@+id/clickMe"
             android:layout_width="match_parent"
             android:layout_height="0px"
             android:layout_weight="10"
             android:onClick="buttonPressed"
-            android:text="Click me" />
+            android:text="Click me"
+            android:textColor="#0B065C" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="0px"
-            android:layout_weight="10" />
     </LinearLayout>
 
     <Space
